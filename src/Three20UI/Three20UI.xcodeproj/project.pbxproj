@@ -2350,6 +2350,7 @@
 				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				RUN_CLANG_STATIC_ANALYZER = YES;
+				VALID_ARCHS = armv7;
 			};
 			name = Internal;
 		};
@@ -2377,6 +2378,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -2386,6 +2388,7 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				VALID_ARCHS = armv7;
 				ZERO_LINK = NO;
 			};
 			name = Release;
